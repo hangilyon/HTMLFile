@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>quiz02</title>
+</head>
+
+<style>
+	table {background-color:pink; width:70%; margin:auto;}
+	table tr td {background-color:red; color:white; width:130px;height:35px; text-align:center; padding-left:5px;}
+	.img {width:70%; margin:auto; padding-top:15px;}
+	img {width:100%;}
+	hr {width:70%;}
+	div {width:70%; margin:auto; font-size:25px; padding-top:10px; padding-bottom:10px;}
+	.ans {font-size:17px;}
+	input:focus {background-color: skyblue;}
+	a {text-decoration:none; color:black}
+	label{color:white;}
+	a.ac:active+label.re {color:black;}
+	
+</style>
+<body>
+	<table>
+		<tr>
+			<td style="background-color:pink"></td>
+			<td><a href="#1">1번 문제로 이동</a></td>
+			<td><a href="#2">2번 문제로 이동</a></td>
+			<td><a href="#3">3번 문제로 이동</a></td>
+			<td><a href="#4">4번 문제로 이동</a></td>
+		</tr>
+	</table>
+	<div class="img">
+	<img src="images/quiz.png"> 
+	</div>
+<hr>
+	<div><b>정답 확인 클릭시 정답 보여짐</b></div>
+<hr>
+	<div style="color:green;"id = "1"><b>문제 1) 정적 언어는?</b></div>
+	<div class="ans">정답 작성<input type="text"> <a href="#11" class="ac">정답 클릭 확인</a><label class="re" id="11"> 정답임</label ></div>
+<hr>
+	<div style="color:blue;"id = "2"><b>문제 2) 서버 사이드 언어는?</b></div>
+	<div class="ans">정답 작성<input type="text"> <a href="#22" class="ac">정답 클릭 확인</a><label class="re" id="22"> 정답임</label></div>
+<hr>
+	<div style="color:red;"id = "3"><b>문제 3) 프로그래밍 언어는?</b></div>
+	<div class="ans">정답 작성<input type="text"> <a href="#33" class="ac">정답 클릭 확인</a><label class="re" id="33"> 정답임</label></div>
+<hr>
+	<div style="color:pink;"id = "4"><b>문제 4) 클라이언트 사이드 언어는?</b></div>
+	<div class="ans">정답 작성<input type="text"> <a href="#44" class="ac">정답 클릭 확인</a><label class="re" id="44"> 정답임</label></div>
+<hr>
+</body>
+</html>
